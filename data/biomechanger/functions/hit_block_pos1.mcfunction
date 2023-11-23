@@ -4,7 +4,7 @@ scoreboard players set #hit raycastpos1 1
 
 #Running custom commands since the block was found.
 
-say success
+tellraw @s "Position 1 set!"
 summon minecraft:armor_stand ~ ~ ~ {Tags: ["pos1"]}
 data get entity @e[type=minecraft:armor_stand , tag=pos1, limit= 1] Pos
 execute store result score 0 pos1x run data get entity @e[type=armor_stand,tag=pos1,limit=1,sort=nearest] Pos[0]

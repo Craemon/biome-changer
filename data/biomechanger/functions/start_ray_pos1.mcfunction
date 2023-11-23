@@ -6,7 +6,7 @@ scoreboard players set #distance raycastpos1 0
 
 #Running custom pre-raycast commands.
 
-tellraw @s "Setting Position 1 to:"
+
 
 #Activating the raycast. This function will call itself until it is done.
 

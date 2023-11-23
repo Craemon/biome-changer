@@ -6,7 +6,7 @@ scoreboard players set #distance raycastpos2 0
 
 #Running custom pre-raycast commands.
 
-say Before Raycasting
+
 
 #Activating the raycast. This function will call itself until it is done.
 
